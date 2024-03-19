@@ -1,0 +1,26 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Text reader</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h1>Text reader</h1>
+    <button id="btn-toggle" class="btn btn-toggle">Toggle text box</button>
+    <div class="text-box" id="text-box">
+      <div class="btn-close" id="btn-close"><img src="./images/close.svg" /></div>
+      <h3>Choose voice</h3>
+      <select id="voices"></select>
+      <textarea id="text" placeholder="Type text to read..."></textarea>
+      <button id="btn-read" class="btn btn-read">Read</button>
+    </div>
+    <main></main>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
